@@ -1,0 +1,45 @@
+version: 2
+
+run:
+  timeout: 3m
+  tests: true
+
+linters:
+  enable:
+    - bodyclose
+    - errcheck
+    - gocritic
+    - govet
+    - ineffassign
+    - staticcheck
+    - unconvert
+    - unused
+    - revive
+
+formatters:
+  enable:
+    - gofmt
+    - gofumpt
+    - goimports
+
+linters-settings:
+  gofumpt:
+    extra-rules: true
+  revive:
+    severity: warning
+    rules:
+      - name: blank-imports
+      - name: context-as-argument
+      - name: context-keys-type
+      - name: errorf
+      - name: error-strings
+      - name: if-return
+      - name: increment-decrement
+      - name: range
+      - name: receiver-naming
+      - name: superfluous-else
+      - name: unexported-return
+      - name: unused-parameter
+
+issues:
+  exclude-use-default: false

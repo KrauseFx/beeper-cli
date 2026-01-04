@@ -1,0 +1,22 @@
+# Binaries
+beeper-cli
+*.exe
+*.out
+
+# Go build/test cache
+/bin/
+/tmp/
+/dist/
+*.test
+
+# Go workspace
+/go.work
+/go.work.sum
+
+# Editor/OS
+.DS_Store
+.idea/
+.vscode/
+
+# Logs
+*.log
