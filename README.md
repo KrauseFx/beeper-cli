@@ -1,5 +1,7 @@
 # 🛰️ Beeper CLI — Warp-speed access to your local Beeper universe
 
+> Not affiliated with, endorsed by, or sponsored by Beeper or its affiliates. Use at your own risk.
+
 A read-only CLI for AI agents (and humans) to browse, open, and search your local Beeper chat history.
 
 ## Highlights

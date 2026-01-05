@@ -1,5 +1,7 @@
 # Beeper CLI Spec (v0.1.0)
 
+> Not affiliated with, endorsed by, or sponsored by Beeper or its affiliates. Use at your own risk.
+
 ## Overview
 Beeper CLI is a **read-only** command-line interface for AI agents and humans to explore local Beeper Desktop data stored in SQLite. It provides thread browsing, message reading, and full-text search backed by Beeper's FTS5 index. The CLI prioritizes agent-friendly JSON output and predictable filtering.
 
